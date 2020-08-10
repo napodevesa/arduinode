@@ -7,7 +7,9 @@ function prender ()
 {
 	
 var led = new jf.Led (13);
+var led2 = new jf.Led (9);
 
 led.blink (500);
+led2.blink (1000);
 
 }
