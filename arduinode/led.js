@@ -1,4 +1,4 @@
-var jf = requiere ("johnny-five");
+var jf = require ("johnny-five");
 var circuito = new jf.Board();
 
 circuito.on("ready", prender);
@@ -6,8 +6,8 @@ circuito.on("ready", prender);
 function prender ()
 {
 	
-var led = new jf.Led (13):
+var led = new jf.Led (13);
 
-led.blink
+led.blink (500);
 
 }
